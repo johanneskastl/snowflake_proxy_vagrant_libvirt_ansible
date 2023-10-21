@@ -20,3 +20,6 @@
 
 - name: 'Run playbook-all_nodes-add_snowflake_repo.yml'
   import_playbook: playbook-all_nodes-add_snowflake_repo.yml
+
+- name: 'Run playbook-all_nodes-install_snowflake.yml'
+  import_playbook: playbook-all_nodes-install_snowflake.yml
