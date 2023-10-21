@@ -1,0 +1,12 @@
+---
+- name: 'Start and enable the snowflake proxy'
+  hosts: 'all'
+  gather_facts: true
+  become: true
+
+  roles:
+
+    - role: 'johanneskastl.start_and_or_enable_systemd_service'
+      service_name: 'snowflake'
+      service_started: true
+      service_enabled: true
