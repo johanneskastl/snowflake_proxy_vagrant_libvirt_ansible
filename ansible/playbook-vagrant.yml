@@ -23,3 +23,6 @@
 
 - name: 'Run playbook-all_nodes-install_snowflake.yml'
   import_playbook: playbook-all_nodes-install_snowflake.yml
+
+- name: 'Run playbook-all_nodes-start_and_enable_the_snowflake_service.yml'
+  import_playbook: playbook-all_nodes-start_and_enable_the_snowflake_service.yml
